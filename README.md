@@ -10,10 +10,9 @@ Hive Link cho bot của bạn gọi công cụ chạy ngay trên máy bạn: đ�
 |---|---|---|
 | macOS, chip Apple (M1 trở lên) | `hive-link-app-macos-<bản>.dmg` | có |
 | Windows 10/11 64-bit (x64) | `hive-link-app-windows-x64-<bản>-setup.exe` | có |
+| Linux x64 | `hive-link-app-linux-x64-<bản>.tar.gz` | có |
 
 Tải ở mục **Releases** (bên phải trang này), bản mới nhất, cùng tệp `SHA256SUMS.txt`.
-
-App tự kiểm bản mới mỗi lần mở (Mac qua Sparkle, Windows qua WinSparkle) và báo khi có bản mới hơn — không cần tự tải lại thủ công, trừ lần cài đầu tiên.
 
 ## Cần có trước
 
@@ -44,8 +43,9 @@ Hộp duyệt: **Allow once** (lần này), **Always allow** (luôn cho cả ser
 2. Kiểm mã băm, dán vào PowerShell (phải in ra `True`):
    ```powershell
    cd $HOME\Downloads
-   $expected = (Select-String -Path SHA256SUMS.txt -Pattern 'windows').Line.Split(' ')[0]
-   (Get-FileHash .\hive-link-app-windows-x64-*-setup.exe -Algorithm SHA256).Hash -eq $expected.ToUpper()
+   $f = Get-ChildItem .\hive-link-app-windows-x64-*-setup.exe | Sort-Object LastWriteTime | Select-Object -Last 1
+   $line = (Select-String -Path .\SHA256SUMS.txt -SimpleMatch $f.Name).Line
+   (Get-FileHash $f.FullName -Algorithm SHA256).Hash -eq $line.Split(' ')[0]
    ```
    In ra `False` thì dừng lại, không cài.
 3. Chạy tệp `-setup.exe`, Windows SmartScreen chặn vì app chưa ký nhà phát hành đã-xác-minh → bấm **More info** → **Run anyway**. Theo wizard tới khi cài xong.
@@ -59,5 +59,4 @@ Hộp duyệt: **Allow once** (lần này), **Always allow** (luôn cho cả ser
 ## Gặp lỗi
 
 - Mac: không thấy nút Open Anyway: `xattr -dr com.apple.quarantine "/Applications/Tiny Hive.app"` rồi mở lại app.
-- Windows: SmartScreen chặn lại sau khi cài xong (chạy app lần đầu) → bấm **More info** → **Run anyway**, chỉ cần làm một lần.
 - Trang Control Plane báo tên máy đã có người dùng: trong app bấm **Change name**.
