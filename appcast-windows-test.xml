@@ -5,12 +5,12 @@
   <link>https://github.com/Tiny-Hive/hive-link-releases</link>
   <description>Tiny Hive (Hive Link) updates</description>
 <item>
-  <title>v0.0.0-inst-7</title>
-  <pubDate>Thu, 15 Oct 2026 09:52:14 +0000</pubDate>
-  <sparkle:version>4</sparkle:version>
-  <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
-  <sparkle:releaseNotesLink>https://github.com/Tiny-Hive/hive-link-releases/releases/tag/v0.0.0-inst-7</sparkle:releaseNotesLink>
-  <enclosure url="https://github.com/Tiny-Hive/hive-link-releases/releases/download/v0.0.0-inst-7/hive-link-app-windows-x64-v0.0.0-inst-7-setup.exe" length="30814833" type="application/octet-stream" sparkle:edSignature="oFxFSUKhFjYoQazVNEEcYBvumR6vJZ4k+juHsWxRJLCXox9BtVhnXZ9u0jEWnNcRq42n0KMay+JMH43ivFhWDg==" sparkle:installerArguments="/SILENT /SUPPRESSMSGBOXES /SP- /NORESTART /RELAUNCH=1" />
+  <title>v0.0.0-inst-9</title>
+  <pubDate>Thu, 15 Oct 2026 16:23:20 +0000</pubDate>
+  <sparkle:version>5</sparkle:version>
+  <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
+  <sparkle:releaseNotesLink>https://github.com/Tiny-Hive/hive-link-releases/releases/tag/v0.0.0-inst-9</sparkle:releaseNotesLink>
+  <enclosure url="https://github.com/Tiny-Hive/hive-link-releases/releases/download/v0.0.0-inst-9/hive-link-app-windows-x64-v0.0.0-inst-9-setup.exe" length="30813608" type="application/octet-stream" sparkle:edSignature="itdfj1ZIgDK1i97Z5XbL0bw0g/ODrrU67un0QcCYQrdtm1mdBqWjy6she31XZmEQ0g1oMSD6zpTVDzMJi4tQCw==" sparkle:installerArguments="/SILENT /SUPPRESSMSGBOXES /SP- /NORESTART /RELAUNCH=1" />
 </item>
 </channel>
 </rss>
