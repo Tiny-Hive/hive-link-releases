@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<channel>
+  <title>Tiny Hive (Hive Link)</title>
+  <link>https://github.com/Tiny-Hive/hive-link-releases</link>
+  <description>Tiny Hive (Hive Link) updates</description>
+<item>
+  <title>v0.0.0-inst-7</title>
+  <pubDate>Thu, 15 Oct 2026 09:52:14 +0000</pubDate>
+  <sparkle:version>4</sparkle:version>
+  <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+  <sparkle:releaseNotesLink>https://github.com/Tiny-Hive/hive-link-releases/releases/tag/v0.0.0-inst-7</sparkle:releaseNotesLink>
+  <enclosure url="https://github.com/Tiny-Hive/hive-link-releases/releases/download/v0.0.0-inst-7/hive-link-app-windows-x64-v0.0.0-inst-7-setup.exe" length="30814833" type="application/octet-stream" sparkle:edSignature="oFxFSUKhFjYoQazVNEEcYBvumR6vJZ4k+juHsWxRJLCXox9BtVhnXZ9u0jEWnNcRq42n0KMay+JMH43ivFhWDg==" sparkle:installerArguments="/SILENT /SUPPRESSMSGBOXES /SP- /NORESTART /RELAUNCH=1" />
+</item>
+</channel>
+</rss>
