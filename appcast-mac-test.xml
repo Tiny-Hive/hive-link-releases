@@ -5,12 +5,12 @@
   <link>https://github.com/Tiny-Hive/hive-link-releases</link>
   <description>Tiny Hive (Hive Link) updates</description>
 <item>
-  <title>v0.0.0-inst-12</title>
-  <pubDate>Fri, 16 Oct 2026 05:10:10 +0000</pubDate>
-  <sparkle:version>8</sparkle:version>
+  <title>v0.0.0-inst-13</title>
+  <pubDate>Fri, 16 Oct 2026 15:47:25 +0000</pubDate>
+  <sparkle:version>9</sparkle:version>
   <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
-  <sparkle:releaseNotesLink>https://github.com/Tiny-Hive/hive-link-releases/releases/tag/v0.0.0-inst-12</sparkle:releaseNotesLink>
-  <enclosure url="https://github.com/Tiny-Hive/hive-link-releases/releases/download/v0.0.0-inst-12/hive-link-app-macos-v0.0.0-inst-12.dmg" length="59356329" type="application/octet-stream" sparkle:edSignature="WfjPq7YUXuJcmyyLAYWOyC81nNF+EEt2Ha9WEOnU9tlDzmAMOual++ebWLsWj2JbWPQlNIF8jPOIhU5Cv/YCCA==" />
+  <description><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><style>:root{color-scheme:light dark}body{margin:0;padding:12px 16px;font:13px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;color:#1d1d1f;background:#ffffff}h2{font-size:13px;font-weight:600;margin:10px 0 4px}h2:first-child{margin-top:0}ul{margin:0;padding-left:18px}li{margin:2px 0}p{margin:4px 0}code{font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:#f0f0f2;border-radius:4px;padding:0 3px}@media (prefers-color-scheme:dark){body{color:#f5f5f7;background:#1e1e1e}code{background:#2c2c2e}}</style></head><body><h2>What&#x27;s new</h2><ul><li><b>A new look.</b> A sidebar and redesigned Requests, Log, This Machine, MCP Servers and Permissions pages.</li><li><b>Answer requests from the row.</b> Allow once, always allow a server, or deny, also with the keys: ↵, ⌘↵ or Ctrl+↵, ⌫.</li><li><b>Automatic updates.</b> On macOS and Windows a new version is installed from the app. Each update is checked against its signature before anything is installed.</li><li><b>A Windows installer.</b> Tiny Hive installs with a Start menu shortcut, and an older version can no longer be installed over a newer one.</li><li><b>This Machine shows updates.</b> The Updates line says which build you have, whether a newer one is out, or why updates cannot be checked.</li><li><b>Licences per account.</b> When the licence of one Control Plane runs out, only that account stops; your other accounts keep running.</li></ul><h2>Fixed</h2><ul><li>&quot;The hive-link core did not start&quot; after the computer was switched off suddenly.</li><li>Long folder names now fit on one line, &quot;Any&quot; filters in the Log clear the filter, a server you switch on shows Running once it is up, and an answered request closes.</li></ul></body></html>]]></description>
+  <enclosure url="https://github.com/Tiny-Hive/hive-link-releases/releases/download/v0.0.0-inst-13/hive-link-app-macos-v0.0.0-inst-13.dmg" length="59356341" type="application/octet-stream" sparkle:edSignature="JJ/lZrBNXWUd4muj2ePWRX0OW9h2Hz4DE92NRCuPd15PG9SFhSePhVkslLYqtzbzFicQNJx/I8iPC2U5d6xgDA==" />
 </item>
 </channel>
 </rss>
