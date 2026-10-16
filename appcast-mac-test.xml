@@ -5,14 +5,6 @@
   <link>https://github.com/Tiny-Hive/hive-link-releases</link>
   <description>Tiny Hive (Hive Link) updates</description>
 <item>
-  <title>v0.0.0-inst-12 (bad signature test)</title>
-  <pubDate>Fri, 16 Oct 2026 05:10:10 +0000</pubDate>
-  <sparkle:version>9</sparkle:version>
-  <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
-  <sparkle:releaseNotesLink>https://github.com/Tiny-Hive/hive-link-releases/releases/tag/v0.0.0-inst-12</sparkle:releaseNotesLink>
-  <enclosure url="https://github.com/Tiny-Hive/hive-link-releases/releases/download/v0.0.0-inst-12/hive-link-app-macos-v0.0.0-inst-12.dmg" length="59356329" type="application/octet-stream" sparkle:edSignature="WfjPq7YUXuJcmy2LAYWOyC81nNF+EEt2Ha9WEOnU9tlDzmAMOual++ebWLsWj2JbWPQlNIF8jPOIhU5Cv/YCCA==" />
-</item>
-<item>
   <title>v0.0.0-inst-12</title>
   <pubDate>Fri, 16 Oct 2026 05:10:10 +0000</pubDate>
   <sparkle:version>8</sparkle:version>
