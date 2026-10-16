@@ -5,12 +5,12 @@
   <link>https://github.com/Tiny-Hive/hive-link-releases</link>
   <description>Tiny Hive (Hive Link) updates</description>
 <item>
-  <title>v0.0.0-inst-10</title>
-  <pubDate>Thu, 15 Oct 2026 18:38:32 +0000</pubDate>
-  <sparkle:version>6</sparkle:version>
+  <title>v0.0.0-inst-12</title>
+  <pubDate>Fri, 16 Oct 2026 05:10:10 +0000</pubDate>
+  <sparkle:version>8</sparkle:version>
   <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
-  <sparkle:releaseNotesLink>https://github.com/Tiny-Hive/hive-link-releases/releases/tag/v0.0.0-inst-10</sparkle:releaseNotesLink>
-  <enclosure url="https://github.com/Tiny-Hive/hive-link-releases/releases/download/v0.0.0-inst-10/hive-link-app-linux-x64-v0.0.0-inst-10.tar.gz" length="43250824" type="application/octet-stream" sparkle:edSignature="aw7qIOQ1UeHIDt6c17Yds4UdFlIuHvCsmmDGQdUI6qWR+Fy+bpp7Y1B332Y5UobhY0eGA6a36A3hWXh2IH7OBg==" />
+  <sparkle:releaseNotesLink>https://github.com/Tiny-Hive/hive-link-releases/releases/tag/v0.0.0-inst-12</sparkle:releaseNotesLink>
+  <enclosure url="https://github.com/Tiny-Hive/hive-link-releases/releases/download/v0.0.0-inst-12/hive-link-app-linux-x64-v0.0.0-inst-12.tar.gz" length="43263036" type="application/octet-stream" sparkle:edSignature="HKm1bGyDN5bXdmEi3aQOgpBQKJntz7ZnZBm9Dk24mG10y86QUU1rwckxt7HQlOtHhK0+GARSIJFq1ndYJFjXCA==" />
 </item>
 </channel>
 </rss>
